@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <header class="logo"><img src="codeO'clock.jpg"></header>
+
+    <ul>
+        <li><a href="first.html">About Me</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="Login.html">Login</a></li>
+        <li><a href="contact.html">Contact</a></li> 
+    </ul><hr>
+    <div class="contact">
+        <h3>Contact us using the form below</h3>
+        <form action="">
+            <label>Name<input type="text" name="name" required></label>
+            <label>Email<input type="email" name="email" required></label>
+            <label>Message<textarea name="message" rows="4" cols="50" required></textarea></label>
+            <label>
+                Priority
+                <select>
+                    <option>Critical</option><option>Important</option>
+                    <option>Average</option><option>Low</option>
+                </select>
+            </label>
+        </form>
+        <input name="button" type="submit" value="Submit">
+    </div>
+</body>
+</html>

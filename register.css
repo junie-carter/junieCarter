@@ -1,0 +1,77 @@
+body{
+    background-image: url(lappy.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h3, p{
+    text-align: center;
+}
+
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin: -25px 20px; 
+}
+
+ul li{
+    display: inline;
+}
+
+ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: burlywood;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: -40px 30px 0px ;
+    font-weight: bold;
+}
+
+form{
+    margin: 0 auto;
+    max-width: 500px;
+    width: 60vw;
+    min-width: 300px;
+    padding-bottom: 2px;
+}
+
+label{
+    display: block;
+    margin: 10px 0;
+}
+
+input,
+textarea,
+select{
+    margin: 10px 0 0 0;
+    width: 100%; 
+    min-height: 2em;   
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.registration{
+    width: 100%;
+    height: fit-content;
+    max-width: 500px;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 20px
+}
+
+input[name="button"]{
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1em;
+    background-color: gray;
+    border-color: white;
+    min-width: 300px;
+    padding-bottom: 2px;
+    
+}
